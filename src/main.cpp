@@ -11,6 +11,7 @@
     #include <Geode/modify/GJGameLevel.hpp>
     #include <Geode/modify/PlayLayer.hpp>
     using namespace geode::prelude;
+    // ok before we get started, im genuinely sorry my code looks like this :3
     class $modify(NewMainLevels, GameLevelManager) {
     public:
     GJGameLevel* getMainLevel(int levelID, bool dontGetLevelString) {
@@ -571,4 +572,5 @@ void updateFeatureState(GJFeatureState p0)
         };
     };
 };
+
 };
